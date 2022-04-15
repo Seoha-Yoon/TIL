@@ -4,8 +4,6 @@
 
 * **SafeArea**: 상태바 제외하고 위젯이 위치할 수 있도록 해줌
 
-
-
 ## Column and Row
 
 * **MainAxisAlignment**: 주축 정렬
@@ -46,8 +44,6 @@ height: MediaQuery.of(context).size.height,
   * min - 주축 크기 최소로 (위젯들이 최소한으로 차지하는 사이즈)
   
   * max - 주축 크기 최대로 (defalut) 
-
-
 
 ## Expanded, Flexible
 

@@ -18,8 +18,6 @@ Scaffold(
     );
 ```
 
-
-
 ## 함수형 프로그래밍 사용
 
 ```dart
@@ -37,8 +35,6 @@ Scaffold(
       ),
     );
 ```
-
-
 
 ## Timer
 
@@ -64,8 +60,6 @@ void dispose() {
   super.dispose();
 }
 ```
-
-
 
 ## PageController
 
@@ -99,5 +93,3 @@ timer = Timer.periodic(Duration(seconds: 2), (timer) {
         duration: Duration(milliseconds: 400), curve: Curves.linear);
   });
 ```
-
-

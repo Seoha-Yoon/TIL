@@ -30,8 +30,6 @@ void main() {
   
   MaterialApp -> Scaffold -> Center -> Text
 
-
-
 ## Splash 화면 만들기
 
 1. Asset 추가하기
@@ -51,8 +49,6 @@ flutter:
   assets:
     - asset/img/
 ```
-
-
 
 2. StatelessWidget 사용해보기
 

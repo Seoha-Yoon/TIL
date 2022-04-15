@@ -103,5 +103,3 @@ actions: [
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic = "true">
 ```
-
-
