@@ -22,8 +22,6 @@
 
 * *markers*: circle과 같음.
 
-
-
 ## Geolocator 위치권한 설정하기
 
 [Geolocator Docs]((https://pub.dev/documentation/geolocator/latest/))
@@ -99,5 +97,17 @@ Future<String> checkPermission() async {
     * whileInUse, always
 
 
+
+## Geolocator 이용해서 현재위치 가져오기
+
+```dart
+final location = await Geolocator.getCurrentPosition(
+ desiredAccuracy: LocationAccuracy.lowest,
+);
+```
+
+* 이때, default desiredAccuracy는 best다.. 그런데 작동하지 않아서 accuracy를 낮췄더니 잘 작동했다.
+
+* 이에 대한 이유는 조금 더 알아봐야할 것 같다.
 
 
